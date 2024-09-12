@@ -1,9 +1,3 @@
----
-title: ECS Dynamic Infrastructure Setup with Fargate, EC2, and CICD Integration using Terraform
-description: This setup provides a dynamic ECS infrastructure using both Fargate and EC2. It includes a frontend hosted on S3 and ECS, and a backend service running on ECS. The configuration supports Service Connect, a load balancer with alias hostname listener rules for a two-tier architecture, and a load balancer endpoint for a single-tier architecture. It is integrated with CI/CD pipelines for inplace - when using service connect - and blue/green deployment strategies as well as supporting automated Nginx server proxy setup using CI. It allows customization of infrastructure resources with existing ones. It also supports pulling code from a Git repository including custom nginx configuration and task definition files, or use public Docker images directly. The entire setup is implemented using Terraform.
-author: obreo
-date: 2024-09-08
----
 
 # ECS Dynamic Infrastructure Setup with Fargate, EC2, and CICD Integration using Terraform
 
